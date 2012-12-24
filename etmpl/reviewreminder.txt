@@ -1,0 +1,14 @@
+Photos and/or feedback pending review on Fotavia
+
+Hi Admin,
+
+This is your daily reminder that you have photos and/or feedback pending for
+review on Fotavia.
+
+Photos pending review: {{NUM_PHOTOS_PENDING}}
+{{PHOTO_REVIEW_URL}}
+
+Feedback messages pending review: {{NUM_FEEDBACKS_PENDING}}
+{{PHOTO_FEEDBACK_REVIEW_URL}}
+
+Please review these items asap.

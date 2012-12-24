@@ -1,0 +1,18 @@
+Instructions to reset password on Fotavia
+
+Hi {{NAME}},
+
+We received a request to reset your password on Fotavia ({{BASE_URL}}). If
+you did not initiate this request, please ignore this email and we apologize
+for the inconvenience.
+
+If you did initiate this request, please click on the link below. You will
+then be prompted to save a new password.
+
+{{FORGOT_PASS_LINK}}
+
+If you have any questions, please drop us a line on our feedback page:
+
+{{FEEDBACK_PAGE_URL}}
+
+

@@ -1,0 +1,13 @@
+{{FOLLOWER_NAME}} is following you on Fotavia
+
+Hi {{NAME}},
+
+{{FOLLOWER_NAME}} ({{FOLLOWER_USERNAME}}) is now following you on Fotavia. Check out
+{{FOLLOWER_USERNAME}}'s profile page here:
+
+{{FOLLOWER_PROFILE_PAGE_URL}}
+
+Be sure to take a peek at {{FOLLOWER_USERNAME}}'s latest photos! You can even
+follow {{FOLLOWER_USERNAME}} back to receive instant notifications when
+{{FOLLOWER_USERNAME}} uploads new photos.
+

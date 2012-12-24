@@ -1,0 +1,15 @@
+Reminder to upload a new photo on Fotavia
+
+Hi {{NAME}},
+
+This is your first (and only) reminder to upload a new photo on Fotavia. We
+only let you upload one photo a day so be sure to choose the very best you
+got!
+
+{{PHOTO_ADD_URL}}
+
+Choose something totally wacky! Something that represents the highlight of
+today (or yesterday). A funny face, a day at the park, a macro of your pet
+snake, anything at all!
+
+Please note that this is a one-time only email.

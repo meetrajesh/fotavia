@@ -1,0 +1,8 @@
+# robots.txt for http://www.fotavia.com
+
+User-agent: *
+Disallow: /login
+Disallow: /profile
+Disallow: /forgotpass
+Disallow: /resetpass
+Disallow: /emailprefs

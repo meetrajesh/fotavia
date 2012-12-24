@@ -1,0 +1,18 @@
+mysql> select user_id, username from users order by user_id asc;
++---------+--------------+
+| user_id | username     |
++---------+--------------+
+|       1 | meetrajesh   |
+|       2 | william      |
+|       3 | billgates    |
+|       4 | mseliske     |
+|       5 | fahdoo       |
+|       6 | shams        |
+|       7 | aavdacev     |
+|       8 | karan        |
+|       9 | Paulson      |
+|      10 | paulgb       |
+|      11 | ehdtkqorl123 |
+|      12 | cduruk       |
++---------+--------------+
+12 rows in set (0.00 sec)

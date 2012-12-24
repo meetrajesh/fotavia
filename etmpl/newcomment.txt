@@ -1,0 +1,12 @@
+{{COMMENTER_NAME}} commented on your photo on Fotavia
+
+Hi {{NAME}},
+
+{{COMMENTER_NAME}} ({{COMMENTER_USERNAME}}) commented on your photo
+"{{PHOTO_TITLE}}" on Fotavia:
+
+"{{COMMENT_BODY}}"
+
+View the comment here:
+{{COMMENT_URL}}
+

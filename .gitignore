@@ -1,0 +1,6 @@
+*.swp
+*.orig
+photos
+Thumbs.db
+.hg
+.hgignore

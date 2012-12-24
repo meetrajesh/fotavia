@@ -1,0 +1,72 @@
+DirectoryIndex index.php
+Options -Indexes -MultiViews
+
+php_flag register_globals off
+php_flag magic_quotes_gpc off
+php_flag allow_call_time_pass_reference off
+php_flag allow_url_fopen off
+php_flag display_errors on
+php_flag session.use_trans_sid off
+php_flag short_open_tag on
+php_value url_rewriter.tags none
+# 20mb, also change in init.php
+php_value upload_max_filesize 20971520
+php_value post_max_size 20971520
+php_value max_input_time 300
+php_value max_execution_time 90
+# available only since PHP 5.0.0
+php_flag register_long_arrays off
+
+ErrorDocument 404 /404.php
+ErrorDocument 403 /404.php
+
+RewriteEngine On
+RewriteBase /
+
+# redirect http://fotavia.com to http://www.fotavia.com
+RewriteCond %{HTTP_HOST} !^www\.fotavia\.com [NC]
+RewriteRule ^(.*) http://www.fotavia.com/$1 [L,R]
+
+# example - daily archive
+# http://www.fotavia.com/meetrajesh/2009/06/14/godiva-chocolate/
+RewriteCond %{QUERY_STRING} newp
+RewriteRule ^(\w+)/([0-9]{4})/([0-9]{2})/([0-9]{2})/ view.php?user=$1&date=$2-$3-$4&newp=1 [L]
+RewriteRule ^(\w+)/([0-9]{4})/([0-9]{2})/([0-9]{2}) view.php?user=$1&date=$2-$3-$4 [L]
+# example - monthly archive
+# http://www.fotavia.com/meetrajesh/2009/08/aug
+RewriteRule ^(\w+)/([0-9]{4})/([0-9]{2})/(\w{3}) month.php?user=$1&date=$2-$3 [L]
+
+RewriteRule ^photo/edit/(\d+) photo_edit.php?pid=$1 [L]
+RewriteRule ^photo/add/? photo_add.php [L]
+RewriteRule ^photo/delete/(\d+) photo_delete.php?pid=$1 [L]
+RewriteRule ^signup/? signup.php [L]
+RewriteRule ^confirm/? confirm.php [L]
+RewriteRule ^dash/? dash.php [L]
+RewriteRule ^logout/? logout.php [L]
+RewriteRule ^sitedown/? sitedown.php [L]
+RewriteRule ^about/? about.php [L]
+RewriteRule ^error/? error.php [L]
+RewriteRule ^login/? index.php [L]
+RewriteRule ^resetpass/(.+) resetpass.php?secret=$1 [L]
+RewriteRule ^forgotpass/? forgotpass.php [L]
+RewriteRule ^feedback/? feedback.php [L]
+RewriteRule ^settings/?$ settings.php [L]
+RewriteRule ^emailprefs/(.+) emailprefs.php?secret=$1 [L]
+RewriteRule ^profile/? profile.php [L]
+RewriteRule ^search/?$ search.php [L]
+RewriteRule ^search/photos/?$ search_photos.php [L]
+RewriteRule ^search/users/?$ search_users.php [L]
+RewriteRule ^newphotos/?$ newphotos.php?newp [L]
+RewriteRule ^newphotos/page/(\d+)/?$ newphotos.php?page=$1&newp [L]
+RewriteRule ^feed/?$ feed.php [L]
+RewriteRule ^feed/(\w+)/(.+)/?$ feed.php?user=$1&key=$2 [L]
+RewriteRule ^(\w+)/feed/? feed.php?user=$1 [L]
+RewriteRule ^(\w+)/follow/? follow.php?user=$1 [L]
+RewriteRule ^(\w+)/unfollow/? unfollow.php?user=$1 [L]
+RewriteRule ^comment/add/(\d+)/?$ comment_add.php?pid=$1 [L]
+RewriteRule ^comment/delete/(\d+)/?$ comment_delete.php?cid=$1 [L]
+RewriteRule ^(\w+)/photos/?$ user_photos.php?user=$1 [L]
+RewriteRule ^(\w+)/photos/?page/(\d+)/?$ user_photos.php?user=$1&page=$2 [L]
+
+# should be the last rule to display user's profile
+RewriteRule ^(\w+)/?$ profile.php?user=$1 [L]

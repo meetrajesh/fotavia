@@ -1,0 +1,2 @@
+INSERT INTO `users` VALUES (1,'meetrajesh','ae33cc424975eaeb095f3654ff83c85d8745231d','Rajesh Kumar','meetrajesh+fotavia@gmail.com','6fbcb03bfb13c2de017e37cba687c7fc',-7,1920,1200,'2009-08-07 13:07:18',1),(2,'william','c824fe0afe16857dd6f587aa7c4044d2642d60fb','William Chen','william@orangenorth.com','eae7cb9d9d8efbbe76fe4a5a91b32a2c',-7,0,0,'2009-08-10 07:10:38',1);
+INSERT INTO `temp_users` VALUES ('500311a16b','rajesh@meetrajesh.com','Rajesh Kumar',0,'2009-08-07 13:07:18');

@@ -1,0 +1,23 @@
+Fotavia Reminder
+
+Hi {{NAME}},
+
+You recently signed up for a Fotavia account at {{BASE_URL}} but haven't
+logged in over 2 weeks! If you're having troubles using Fotavia, we're here
+to help!
+
+Why not upload a photo to help get things started?
+
+{{PHOTO_UPLOAD_URL}}
+
+If you've forgotten your Fotavia password, we can have it reset for you in no
+time!
+
+{{FORGOT_PASS_URL}}
+
+If you have any questions or comments, please drop us a line on our feedback
+page:
+
+{{FEEDBACK_PAGE_URL}}
+
+

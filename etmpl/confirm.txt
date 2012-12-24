@@ -1,0 +1,20 @@
+Signup successful on Fotavia!
+
+Hi {{NAME}},
+
+You have successfully confirmed your registration on Fotavia! Welcome to the
+land of beautiful photography!
+
+Please keep this information for your records:
+
+Username: {{USERNAME}}
+
+To get started, why not upload a new photo?
+{{ADD_PHOTO_LINK}}
+
+You can also visit your brand-new dashboard we've customized for you.
+{{DASHBOARD_LINK}}
+
+If you have any questions, please drop us a line on our feedback page:
+{{FEEDBACK_PAGE_URL}}
+

@@ -1,0 +1,9 @@
+Please confirm your Fotavia signup
+
+Hi {{NAME}},
+
+Thank you for registering with Fotavia. To complete your signup process,
+please click the link below:
+
+{{CONFIRM_URL}}
+

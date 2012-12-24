@@ -1,0 +1,11 @@
+{{OWNER_NAME}} added a new photo on Fotavia
+
+Hi {{NAME}},
+
+{{OWNER_NAME}} ({{OWNER_USERNAME}}) added a new photo "{{PHOTO_TITLE}}" on Fotavia. Check it out here!
+
+{{PHOTO_PAGE_URL}}
+
+Be sure to let {{OWNER_USERNAME}} know if you liked this photo by leaving a
+comment!
+

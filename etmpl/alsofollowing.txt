@@ -1,0 +1,12 @@
+{{FOLLOWER_NAME}} is also following you back on Fotavia
+
+Hi {{NAME}},
+
+{{FOLLOWER_NAME}} ({{FOLLOWER_USERNAME}}) is also following you back on
+Fotavia. Check out {{FOLLOWER_USERNAME}}'s profile page here:
+
+{{FOLLOWER_PROFILE_PAGE_URL}}
+
+If you haven't already done so, be sure to take a peek at
+{{FOLLOWER_USERNAME}}'s latest photos!
+

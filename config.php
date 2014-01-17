@@ -5,8 +5,8 @@ define('IS_SITE_DOWN', false);
 ini_set('display_errors', true);
 
 define('DBHOST', 'localhost');
-define('DBUSER', 'devuser');
-define('DBPASS', 'ljf438ojikhasdf82');
+define('DBUSER', 'root');
+define('DBPASS', '');
 define('DBNAME', 'fotavia');
 
 // secret keys
